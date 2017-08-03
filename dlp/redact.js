@@ -30,7 +30,7 @@ function redactString (string, replaceString, minLikelihood, infoTypes) {
   // const replaceString = 'REDACTED';
 
   // The minimum likelihood required before redacting a match
-  // const minLikelihood = LIKELIHOOD_UNSPECIFIED;
+  // const minLikelihood = 'LIKELIHOOD_UNSPECIFIED';
 
   // The infoTypes of information to redact
   // const infoTypes = ['US_MALE_NAME', 'US_FEMALE_NAME'];
@@ -80,7 +80,7 @@ function redactImage (filepath, minLikelihood, infoTypes, outputPath) {
   // const fileName = 'path/to/image.png';
 
   // The minimum likelihood required before redacting a match
-  // const minLikelihood = LIKELIHOOD_UNSPECIFIED;
+  // const minLikelihood = 'LIKELIHOOD_UNSPECIFIED';
 
   // The infoTypes of information to redact
   // const infoTypes = ['EMAIL_ADDRESS', 'PHONE_NUMBER'];

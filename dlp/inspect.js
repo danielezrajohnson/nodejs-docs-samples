@@ -31,7 +31,7 @@ function inspectString (string, minLikelihood, maxFindings, infoTypes, includeQu
   // const string = 'My name is Gary and my email is gary@example.com';
 
   // The minimum likelihood required before returning a match
-  // const minLikelihood = LIKELIHOOD_UNSPECIFIED;
+  // const minLikelihood = 'LIKELIHOOD_UNSPECIFIED';
 
   // The maximum number of findings to report (0 = server maximum)
   // const maxFindings = 0;
@@ -91,7 +91,7 @@ function inspectFile (filepath, minLikelihood, maxFindings, infoTypes, includeQu
   // const fileName = 'path/to/image.png';
 
   // The minimum likelihood required before returning a match
-  // const minLikelihood = LIKELIHOOD_UNSPECIFIED;
+  // const minLikelihood = 'LIKELIHOOD_UNSPECIFIED';
 
   // The maximum number of findings to report (0 = server maximum)
   // const maxFindings = 0;
@@ -158,7 +158,7 @@ function promiseInspectGCSFile (bucketName, fileName, minLikelihood, maxFindings
   // const fileName = 'my-image.png';
 
   // The minimum likelihood required before returning a match
-  // const minLikelihood = LIKELIHOOD_UNSPECIFIED;
+  // const minLikelihood = 'LIKELIHOOD_UNSPECIFIED';
 
   // The maximum number of findings to report (0 = server maximum)
   // const maxFindings = 0;
@@ -232,7 +232,7 @@ function eventInspectGCSFile (bucketName, fileName, minLikelihood, maxFindings, 
   // const fileName = 'my-image.png';
 
   // The minimum likelihood required before returning a match
-  // const minLikelihood = LIKELIHOOD_UNSPECIFIED;
+  // const minLikelihood = 'LIKELIHOOD_UNSPECIFIED';
 
   // The maximum number of findings to report (0 = server maximum)
   // const maxFindings = 0;
@@ -320,7 +320,7 @@ function inspectDatastore (projectId, namespaceId, kind, minLikelihood, maxFindi
   // const kind = 'Person';
 
   // The minimum likelihood required before returning a match
-  // const minLikelihood = LIKELIHOOD_UNSPECIFIED;
+  // const minLikelihood = 'LIKELIHOOD_UNSPECIFIED';
 
   // The maximum number of findings to report (0 = server maximum)
   // const maxFindings = 0;
